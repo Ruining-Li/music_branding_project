@@ -17,6 +17,7 @@ noise = Random Preference Shocks
 # Requirements
 
 -numpy
+
 -matplotlib
 
 # Results
