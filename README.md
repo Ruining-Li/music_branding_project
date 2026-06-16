@@ -23,6 +23,7 @@ noise = Random Preference Shocks
 # Results
 
 At low levels of packaging intensity, simulated plays increase rapidly. However, the growth slows as packaging intensity becomes stronger.
+The impact of music pacaging could affected by external factors, results are sensitive to large random shocks. 
 
 # How To Run 
 
