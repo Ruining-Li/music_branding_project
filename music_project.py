@@ -46,3 +46,39 @@ plt.ylabel("Stimulated PLays")
 plt.title("Relationship Between Packaging Intensity and Simulated Plays")
 
 plt.show()
+
+
+
+## ADDITIONAL ANALYZATION (Packaging vs. Utility) ##
+
+# Figure 2
+
+noise = np.random.normal(0,1,10000)
+
+packaging = np.random.uniform (0, 100, 10000)
+
+U = np.log(packaging + 1) + noise
+
+plt.scatter(packaging, U)
+
+plt.xlabel("Packaging Intensity")
+plt.ylabel("Listener Utility")
+plt.title("Relationship Between Packaging Intensity and Listener Utility")
+
+plt.show()
+
+# Figure 3
+
+noise = np.random.normal(0,0.1,10000)
+
+packaging = np.random.uniform (0, 100, 10000)
+
+U = np.log(packaging + 1) + noise
+
+plt.scatter(packaging, U)
+
+plt.xlabel("Packaging Intensity")
+plt.ylabel("Listener Utility")
+plt.title("Relationship Between Packaging Intensity and Listener Utility")
+
+plt.show()
