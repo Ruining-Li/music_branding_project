@@ -1,6 +1,6 @@
 ### Music Packaging Project ###
 
-This project investigates whether music packaging affects listener choice through similation.
+This project investigates whether music packaging affects popularity through similation.
 
 # Model
 
