@@ -1,16 +1,16 @@
-### Music Packaging Project ###
+### Music Branding Project ###
 
-This project investigates whether music packaging affects popularity through similation.
+This project investigates the relationship between inforamtion signal in branding and consumer utlity
 
 # Model
 
-U = log (P + 1) + noise
+U = log (1 + S) + noise
 
 where,
 
 U = listener Utility
 
-P = Packaging Intensity
+S = Intensity/Strength of Information Signal
 
 noise = Random Preference Shocks
 
@@ -22,8 +22,8 @@ noise = Random Preference Shocks
 
 # Results
 
-At low levels of packaging intensity, simulated plays increase rapidly. However, the growth slows as packaging intensity becomes stronger.
-The impact of music pacaging could affected by external factors, results are sensitive to large random shocks. 
+At low levels of information signal intensity, simulated choice increase rapidly. However, the growth slows as intensity becomes stronger.
+The impact of information presented in music branding could affected by external factors, results are sensitive to large random shocks. 
 
 # How To Run 
 
