@@ -49,7 +49,7 @@ plt.show()
 
 
 
-## ADDITIONAL ANALYZATION (Packaging vs. Utility) ##
+## ADDITIONAL ANALYZATION (Information Signaling vs. Utility) ##
 
 #Figure 2
 
