@@ -8,7 +8,7 @@ strength_of_info = np.random.uniform (0, 100, brands)
 listeners = 1000
 # number of listeners
 noise = np.random.normal(0,1,listeners)
-# random preference shock (listeners choice may changed by personal tastes)
+# random preference shock capturing unobserved listener-specific factors
 
 S =  strength_of_info[0]
 
@@ -42,14 +42,14 @@ import matplotlib.pyplot as plt
 plt.scatter(strength_of_info,plays_list)
 
 plt.xlabel("Information signal Intensity")
-plt.ylabel("Stimulated Choice")
+plt.ylabel("Simulated Choice")
 plt.title("Relationship Between Information Signaling Intensity and Simulated Choice")
 
 plt.show()
 
 
 
-## ADDITIONAL ANALYZATION (Information Signaling vs. Utility) ##
+## ADDITIONAL ANALYSIS (Information Signaling vs. Utility) ##
 
 #Figure 2
 
